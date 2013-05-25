@@ -1,0 +1,18 @@
+<data>
+	<tanaman kode = '1'>
+		<siram>12</siram>
+		<cahaya>300</cahaya>
+	</tanaman>
+	<tanaman kode='2'>
+		<siram>5</siram>
+		<cahaya>200</cahaya>
+	</tanaman>
+	<tanaman kode='3'>
+		<siram>10</siram>
+		<cahaya>300</cahaya>
+	</tanaman>
+	<tanaman kode='4'>
+		<siram>3</siram>
+		<cahaya>90</cahaya>
+	</tanaman>
+</data>
