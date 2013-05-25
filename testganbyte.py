@@ -16,7 +16,7 @@ lembab = 0
 time = 0
 
 
-def send-data(tnh, chy, suh, lbb):
+def send_data(tnh, chy, suh, lbb):
 	myPort = "8080"
 	myParameters = { 	"tnh1" : "%s" %tnh[0], 
 						"tnh2" : "%s" %tnh[1], 
@@ -31,7 +31,7 @@ def send-data(tnh, chy, suh, lbb):
 	#hasilnya http://localhost (atau 192.168.10.1) /ganbyte/action/read?tnh1=t1&tnh2=t2&tnh3=t3&chy1=c1&chy2=c2&chy3=c3&suhu=suh&lembab=lbb
 
 
-def get-value-sensor():
+def get_value_sensor():
 	for c in range(len(tanah)):
 		arduino.write('2/1/%s') %(c+1)
 		tanah[c] = arduino.readline()
