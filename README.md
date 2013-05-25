@@ -1,4 +1,4 @@
 gangan
 ======
-
-our beloved project
+Created by :
+Bradamus Team
